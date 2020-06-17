@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body id="pozadina" style="background-image: url(slike/pozadina.jpg);">
+    <div id="loginWindow">
+        <div id="windowHeader">Login</div>
+        <div id="windowBody">
+            <form action="https://jsonplaceholder.typicode.com/users" method="GET" id="loginForm">
+                <table id="loginTable">
+                    <tr>
+                        <td id="log">Username:</td>
+                        <td><input type="text" id="Username" name="Username" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td id="log">Password:</td>
+                        <td><input type="password" id="Password" name="Password" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+
+                        <td>&nbsp;</td>
+                        <td><button type="submit">Login </button></td>
+                        <!-- return false prevents form submission and then it actually redirects -->
+                        <td><button type="button" onclick="window.location='index.html';return false;">Cancel </button></td>
+                    </tr>
+                </table>
+            </form>
+            <i> <a id="reg" style="font-weight:bold"  href="registracija.html">Registracija</a></i>
+
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+ <div>
+                        <img src="slike/slikaZaRep1.jpg" class="img-fluid">
+                    </div>
+                    <p class="lead">Režiser: Miloš Avramović <br>Glumci: Miloš Biković,Nebojša Glogovac <br>Žanr: Kriminalisticki,Triler <br> Trajanje: 125min <br> Distributer:Arhangel studio <br> Zemlja porekla: Srbija <br> Godina proizvodnje: 2018</p>
+

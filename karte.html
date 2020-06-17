@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/stil.css" rel="stylesheet">
+
+    <title>Bioskop Liman</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/karte.js"></script>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/karte.css" rel="stylesheet">
+
+
+</head>
+
+<body id="hdbg" style="background-image: url(slike/b2.jpg);">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="slike/Logo.jpg" alt="">
+            </a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Bioskop Liman</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">Aktuelni filmovi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="repertoar.html">Repertoar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="karte.html">Karte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">
+                            Korisnik
+                            <span class="caret"></span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="login.html" target="_blank">Login</a>
+                            <a class="dropdown-item" href="registracija.html">Registracija</a>
+                            <a class="dropdown-item" href="admin.html">Admin</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <header>
+        <div class="container text-right">
+
+        </div>
+    </header>
+
+
+    <div class="container" id="slika">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="container-fluid">
+                    <div class="container">
+                        <p class="p">Izaberite film iz padajuće liste i odaberite sedište.</p>
+                        <select name="select" id="selectFilm">
+                                <option value="">Juzni vetar</option>
+                                <option value="">Jumanji the next level</option>
+                                <option value="">Harry Potter and the deathly hallows part 1</option>
+                                <option value="">Harry Potter and the deathly hallows part 2</option>
+                                <option value="">Patrolne šape</option>
+                                <option value="">4 Ruže</option>
+                                <option value="">Frozen 2</option>
+                                <option value="">Bombshell</option>
+                                <option value="">The grudge</option>
+                                <option value="">1917</option>
+                                <option value="">Bad boys for life</option>
+                            </select>
+                        <form action="" class="forma">
+                            <main class="clearfix">
+                                <input type="checkbox" name="01A" id="01A">
+                                <label for="checkbox">01A</label>
+                                <input type="checkbox" name="02A" id="02A">
+                                <label for="checkbox">02A</label>
+                                <input type="checkbox" name="03A" id="03A">
+                                <label for="checkbox">03A</label>
+                                <input type="checkbox" name="04A" id="04A">
+                                <label for="checkbox">04A</label>
+                                <input type="checkbox" name="05A" id="05A">
+                                <label for="checkbox">05A</label>
+                                <input type="checkbox" name="06A" id="06A">
+                                <label for="checkbox">06A</label>
+                                <input type="checkbox" name="07A" id="07A">
+                                <label for="checkbox">07A</label>
+                                <input type="checkbox" name="08A" id="08A">
+                                <label for="checkbox">08A</label>
+                                <input type="checkbox" name="09A" id="09A">
+                                <label for="checkbox">09A</label>
+                                <input type="checkbox" name="10A" id="10A">
+                                <label for="checkbox">10A</label>
+                            </main>
+
+
+                            <main class="clearfix">
+                                <input type="checkbox" name="01B" id="01B">
+                                <label for="checkbox">01B</label>
+                                <input type="checkbox" name="02B" id="02B">
+                                <label for="checkbox">02B</label>
+                                <input type="checkbox" name="03B" id="03B">
+                                <label for="checkbox">03B</label>
+                                <input type="checkbox" name="04B" id="04B">
+                                <label for="checkbox">04B</label>
+                                <input type="checkbox" name="05B" id="05B">
+                                <label for="checkbox">05B</label>
+                                <input type="checkbox" name="06B" id="06B">
+                                <label for="checkbox">06B</label>
+                                <input type="checkbox" name="07B" id="07B">
+                                <label for="checkbox">07B</label>
+                                <input type="checkbox" name="08B" id="08B">
+                                <label for="checkbox">08B</label>
+                                <input type="checkbox" name="09B" id="09B">
+                                <label for="checkbox">09B</label>
+                                <input type="checkbox" name="10B" id="10B">
+                                <label for="checkbox">10B</label>
+                            </main>
+                            <main class="clearfix">
+                                <input type="checkbox" name="01C" id="01C">
+                                <label for="checkbox">01C</label>
+                                <input type="checkbox" name="02C" id="02C">
+                                <label for="checkbox">02C</label>
+                                <input type="checkbox" name="03C" id="03C">
+                                <label for="checkbox">03C</label>
+                                <input type="checkbox" name="04C" id="04C">
+                                <label for="checkbox">04C</label>
+                                <input type="checkbox" name="05C" id="05C">
+                                <label for="checkbox">05C</label>
+                                <input type="checkbox" name="06C" id="06C">
+                                <label for="checkbox">06C</label>
+                                <input type="checkbox" name="07C" id="07C">
+                                <label for="checkbox">07C</label>
+                                <input type="checkbox" name="08C" id="08C">
+                                <label for="checkbox">08C</label>
+                                <input type="checkbox" name="09C" id="09C">
+                                <label for="checkbox">09C</label>
+                                <input type="checkbox" name="10C" id="10C">
+                                <label for="checkbox">10C</label>
+                            </main>
+                            <main class="clearfix">
+                                <input type="checkbox" name="01D" id="01D">
+                                <label for="checkbox">01D</label>
+                                <input type="checkbox" name="02D" id="02D">
+                                <label for="checkbox">02D</label>
+                                <input type="checkbox" name="03D" id="03D">
+                                <label for="checkbox">03D</label>
+                                <input type="checkbox" name="04D" id="04D">
+                                <label for="checkbox">04D</label>
+                                <input type="checkbox" name="05D" id="05D">
+                                <label for="checkbox">05D</label>
+                                <input type="checkbox" name="06D" id="06D">
+                                <label for="checkbox">06D</label>
+                                <input type="checkbox" name="07D" id="07D">
+                                <label for="checkbox">07D</label>
+                                <input type="checkbox" name="08D" id="08D">
+                                <label for="checkbox">08D</label>
+                                <input type="checkbox" name="09D" id="09D">
+                                <label for="checkbox">09D</label>
+                                <input type="checkbox" name="10D" id="10D">
+                                <label for="checkbox">10D</label>
+                            </main>
+                            <main class="clearfix">
+                                <input type="checkbox" name="01E" id="01E">
+                                <label for="checkbox">01E</label>
+                                <input type="checkbox" name="02E" id="02E">
+                                <label for="checkbox">02E</label>
+                                <input type="checkbox" name="03E" id="03E">
+                                <label for="checkbox">03E</label>
+                                <input type="checkbox" name="04E" id="04E">
+                                <label for="checkbox">04E</label>
+                                <input type="checkbox" name="05E" id="05E">
+                                <label for="checkbox">05E</label>
+                                <input type="checkbox" name="06E" id="06E">
+                                <label for="checkbox">06E</label>
+                                <input type="checkbox" name="07E" id="07E">
+                                <label for="checkbox">07E</label>
+                                <input type="checkbox" name="08E" id="08E">
+                                <label for="checkbox">08E</label>
+                                <input type="checkbox" name="09E" id="09E">
+                                <label for="checkbox">09E</label>
+                                <input type="checkbox" name="10E" id="10E">
+                                <label for="checkbox">10E</label>
+                            </main>
+                            <main class="clearfix">
+                                <input type="checkbox" name="01F" id="01F">
+                                <label for="checkbox">01F</label>
+                                <input type="checkbox" name="02F" id="02F">
+                                <label for="checkbox">02F</label>
+                                <input type="checkbox" name="03F" id="03F">
+                                <label for="checkbox">03F</label>
+                                <input type="checkbox" name="04F" id="04F">
+                                <label for="checkbox">04F</label>
+                                <input type="checkbox" name="05F" id="05F">
+                                <label for="checkbox">05F</label>
+                                <input type="checkbox" name="06F" id="06F">
+                                <label for="checkbox">06F</label>
+                                <input type="checkbox" name="07F" id="07F">
+                                <label for="checkbox">07F</label>
+                                <input type="checkbox" name="08F" id="08F">
+                                <label for="checkbox">08F</label>
+                                <input type="checkbox" name="09F" id="09F">
+                                <label for="checkbox">09F</label>
+                                <input type="checkbox" name="10F" id="10F">
+                                <label for="checkbox">10F</label>
+                            </main>
+                            <main class="clearfix">
+                                <input type="checkbox" name="01G" id="01G">
+                                <label for="checkbox">01G</label>
+                                <input type="checkbox" name="02G" id="02G">
+                                <label for="checkbox">02G</label>
+                                <input type="checkbox" name="03G" id="03G">
+                                <label for="checkbox">03G</label>
+                                <input type="checkbox" name="04G" id="04G">
+                                <label for="checkbox">04G</label>
+                                <input type="checkbox" name="05G" id="05G">
+                                <label for="checkbox">05G</label>
+                                <input type="checkbox" name="06G" id="06G">
+                                <label for="checkbox">06G</label>
+                                <input type="checkbox" name="07G" id="07G">
+                                <label for="checkbox">07G</label>
+                                <input type="checkbox" name="08G" id="08G">
+                                <label for="checkbox">08G</label>
+                                <input type="checkbox" name="09G" id="09G">
+                                <label for="checkbox">09G</label>
+                                <input type="checkbox" name="10G" id="10G">
+                                <label for="checkbox">10G</label>
+                            </main>
+                            <main class="clearfix">
+                                <input type="checkbox" name="01H" id="01H">
+                                <label for="checkbox">01H</label>
+                                <input type="checkbox" name="02H" id="02H">
+                                <label for="checkbox">02H</label>
+                                <input type="checkbox" name="03H" id="03H">
+                                <label for="checkbox">03H</label>
+                                <input type="checkbox" name="04H" id="04H">
+                                <label for="checkbox">04H</label>
+                                <input type="checkbox" name="05H" id="05H">
+                                <label for="checkbox">05H</label>
+                                <input type="checkbox" name="06H" id="06H">
+                                <label for="checkbox">06H</label>
+                                <input type="checkbox" name="07H" id="07H">
+                                <label for="checkbox">07H</label>
+                                <input type="checkbox" name="08H" id="08H">
+                                <label for="checkbox">08H</label>
+                                <input type="checkbox" name="09H" id="09H">
+                                <label for="checkbox">09H</label>
+                                <input type="checkbox" name="10H" id="10H">
+                                <label for="checkbox">10H</label>
+                            </main>
+                            <main style="text-align: center;" class="clearfix">
+                                <input type="checkbox" name="01I" id="01I">
+                                <label for="checkbox">01I</label>
+                                <input type="checkbox" name="02I" id="02I">
+                                <label for="checkbox">02I</label>
+                                <input type="checkbox" name="03I" id="03I">
+                                <label for="checkbox">03I</label>
+                                <input type="checkbox" name="04I" id="04I">
+                                <label for="checkbox">04I</label>
+                            </main>
+                            <DIv>
+                                <button onclick="window.open('index.html')">Pregled rezervacija</button>
+                            </DIv>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <br>
+        <br>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Bioskop Liman 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/sb.js"></script>
+
+</body>
+
+</html>
